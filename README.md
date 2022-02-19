@@ -1,34 +1,23 @@
-## Micronaut 3.3.3 Documentation
+# Paylent
 
-- [User Guide](https://docs.micronaut.io/3.3.3/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.3.3/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.3.3/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
+## Gradle commands
+
+- Run `gradle build` to build the project.
+- Run `gradle test` to build the project tests.
 
 ---
 
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
+- Run `gradle run` to run the application. The application starts in http://localhost:8080
 
-## Feature testcontainers documentation
+## Docker configuration
 
-- [https://www.testcontainers.org/](https://www.testcontainers.org/)
+- Run `gradle dockerBuild` to generate the Docker image.
+- Run `docker-compose up -d` for container creation.
+---
+Two containers are created:
+- Micronaut app starts in http://localhost:8080
+- MongoDB starts in http://localhost:27017
 
-## Feature mongo-reactive documentation
+## Native Image
 
-- [Micronaut MongoDB Reactive Driver documentation](https://micronaut-projects.github.io/micronaut-mongodb/latest/guide/index.html)
-
-- [https://docs.mongodb.com](https://docs.mongodb.com)
-
-## Feature serialization-bson documentation
-
-- [Micronaut Serialization BSON documentation](https://micronaut-projects.github.io/micronaut-serialization/1.0.x/guide/)
-
-## Feature reactor documentation
-
-- [Micronaut Reactor documentation](https://micronaut-projects.github.io/micronaut-reactor/snapshot/guide/index.html)
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-
+- Run `gradle nativeCompile` to generate a native image of the project.
