@@ -20,4 +20,17 @@ Two containers are created:
 
 ## Native Image
 
+- Install GraalVM.
 - Run `gradle nativeCompile` to generate a native image of the project.
+
+## Documentation
+
+- Swagger Interface documentation: http://localhost:8080/swagger-ui
+
+## Pending changes
+
+- Missing error handling.
+- Better approach for component hierarchy.
+- Validators.
+- Missing tests.
+- Styles.
