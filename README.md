@@ -1,5 +1,9 @@
 # Paylent
 
+Paylent is a web app to track payments between friends.
+
+This repo contains the back end side.
+
 ## Gradle commands
 
 - Run `gradle build` to build the project.
