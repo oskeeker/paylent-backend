@@ -7,7 +7,7 @@ This repo contains the back end side.
 ## Gradle commands
 
 - Run `gradle build` to build the project.
-- Run `gradle test` to build the project tests.
+- Run `gradle test` to run the project tests.
 
 ---
 
