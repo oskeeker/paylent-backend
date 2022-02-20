@@ -25,7 +25,7 @@ Two containers are created:
 ## Native Image
 
 - Install GraalVM.
-- Run `gradle nativeCompile` to generate a native image of the project.
+- Run `gradle nativeCompile` to generate a project native image.
 
 ## Documentation
 
