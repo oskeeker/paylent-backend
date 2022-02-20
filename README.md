@@ -29,7 +29,7 @@ Two containers are created:
 
 ## Documentation
 
-- Swagger Interface documentation: http://localhost:8080/swagger-ui
+- Swagger interface documentation: http://localhost:8080/swagger-ui
 
 ## Pending changes
 
