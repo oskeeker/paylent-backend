@@ -29,8 +29,8 @@ Two containers are created:
 
 ## Pending changes
 
-- Missing error handling.
-- Better approach for component hierarchy.
-- Validators.
-- Missing tests.
-- Styles.
+- Missing Error Handling and transaction rollback.
+- Missing DB relations.
+- Micronaut Lombok.
+- Missing authentication.
+- Missing complex validators.
